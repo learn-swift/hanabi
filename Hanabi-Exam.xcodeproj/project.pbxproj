@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3685BF1C49B52000461FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3685BE1C49B52000461FB0 /* AppDelegate.swift */; };
+		8A3685C11C49B52000461FB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3685C01C49B52000461FB0 /* ViewController.swift */; };
+		8A3685C41C49B52000461FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3685C21C49B52000461FB0 /* Main.storyboard */; };
+		8A3685C61C49B52000461FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3685C51C49B52000461FB0 /* Assets.xcassets */; };
+		8A3685C91C49B52000461FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3685C71C49B52000461FB0 /* LaunchScreen.storyboard */; };
+		8A3685D41C49B52000461FB0 /* Hanabi_ExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3685D31C49B52000461FB0 /* Hanabi_ExamTests.swift */; };
+		C3B882F9A9374EB2EA29C41A /* Pods_Hanabi_Exam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47F2428FD2B2614C67303E5 /* Pods_Hanabi_Exam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A3685D01C49B52000461FB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3685B31C49B52000461FB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A3685BA1C49B52000461FB0;
+			remoteInfo = "Hanabi-Exam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A3685BB1C49B52000461FB0 /* Hanabi-Exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hanabi-Exam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3685BE1C49B52000461FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A3685C01C49B52000461FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A3685C31C49B52000461FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A3685C51C49B52000461FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A3685C81C49B52000461FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A3685CA1C49B52000461FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3685CF1C49B52000461FB0 /* Hanabi-ExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hanabi-ExamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3685D31C49B52000461FB0 /* Hanabi_ExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanabi_ExamTests.swift; sourceTree = "<group>"; };
+		8A3685D51C49B52000461FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66FC0DBBEE0DF33C8541A61 /* Pods-Hanabi-Exam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanabi-Exam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hanabi-Exam/Pods-Hanabi-Exam.debug.xcconfig"; sourceTree = "<group>"; };
+		C6979669489ED91741B0FBF0 /* Pods-Hanabi-Exam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanabi-Exam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hanabi-Exam/Pods-Hanabi-Exam.release.xcconfig"; sourceTree = "<group>"; };
+		F47F2428FD2B2614C67303E5 /* Pods_Hanabi_Exam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanabi_Exam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A3685B81C49B52000461FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B882F9A9374EB2EA29C41A /* Pods_Hanabi_Exam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3685CC1C49B52000461FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3685B21C49B52000461FB0 = {
+			isa = PBXGroup;
+			children = (
+				8A3685BD1C49B52000461FB0 /* Hanabi-Exam */,
+				8A3685D21C49B52000461FB0 /* Hanabi-ExamTests */,
+				8A3685BC1C49B52000461FB0 /* Products */,
+				F577CB8470367013C47EADA3 /* Pods */,
+				F94B619DEA4C2468BAC55D35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A3685BC1C49B52000461FB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3685BB1C49B52000461FB0 /* Hanabi-Exam.app */,
+				8A3685CF1C49B52000461FB0 /* Hanabi-ExamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3685BD1C49B52000461FB0 /* Hanabi-Exam */ = {
+			isa = PBXGroup;
+			children = (
+				8A3685BE1C49B52000461FB0 /* AppDelegate.swift */,
+				8A3685C01C49B52000461FB0 /* ViewController.swift */,
+				8A3685C21C49B52000461FB0 /* Main.storyboard */,
+				8A3685C51C49B52000461FB0 /* Assets.xcassets */,
+				8A3685C71C49B52000461FB0 /* LaunchScreen.storyboard */,
+				8A3685CA1C49B52000461FB0 /* Info.plist */,
+			);
+			path = "Hanabi-Exam";
+			sourceTree = "<group>";
+		};
+		8A3685D21C49B52000461FB0 /* Hanabi-ExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A3685D31C49B52000461FB0 /* Hanabi_ExamTests.swift */,
+				8A3685D51C49B52000461FB0 /* Info.plist */,
+			);
+			path = "Hanabi-ExamTests";
+			sourceTree = "<group>";
+		};
+		F577CB8470367013C47EADA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A66FC0DBBEE0DF33C8541A61 /* Pods-Hanabi-Exam.debug.xcconfig */,
+				C6979669489ED91741B0FBF0 /* Pods-Hanabi-Exam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F94B619DEA4C2468BAC55D35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F47F2428FD2B2614C67303E5 /* Pods_Hanabi_Exam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A3685BA1C49B52000461FB0 /* Hanabi-Exam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3685D81C49B52000461FB0 /* Build configuration list for PBXNativeTarget "Hanabi-Exam" */;
+			buildPhases = (
+				92B19CCEB3D7E6E211B32929 /* Check Pods Manifest.lock */,
+				8A3685B71C49B52000461FB0 /* Sources */,
+				8A3685B81C49B52000461FB0 /* Frameworks */,
+				8A3685B91C49B52000461FB0 /* Resources */,
+				0CFCD58A480025D85B520968 /* Embed Pods Frameworks */,
+				EEDF89021DF2CB5C04EEBE9E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hanabi-Exam";
+			productName = "Hanabi-Exam";
+			productReference = 8A3685BB1C49B52000461FB0 /* Hanabi-Exam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A3685CE1C49B52000461FB0 /* Hanabi-ExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3685DB1C49B52000461FB0 /* Build configuration list for PBXNativeTarget "Hanabi-ExamTests" */;
+			buildPhases = (
+				8A3685CB1C49B52000461FB0 /* Sources */,
+				8A3685CC1C49B52000461FB0 /* Frameworks */,
+				8A3685CD1C49B52000461FB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A3685D11C49B52000461FB0 /* PBXTargetDependency */,
+			);
+			name = "Hanabi-ExamTests";
+			productName = "Hanabi-ExamTests";
+			productReference = 8A3685CF1C49B52000461FB0 /* Hanabi-ExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A3685B31C49B52000461FB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "ND NINJA";
+				TargetAttributes = {
+					8A3685BA1C49B52000461FB0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8A3685CE1C49B52000461FB0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8A3685BA1C49B52000461FB0;
+					};
+				};
+			};
+			buildConfigurationList = 8A3685B61C49B52000461FB0 /* Build configuration list for PBXProject "Hanabi-Exam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A3685B21C49B52000461FB0;
+			productRefGroup = 8A3685BC1C49B52000461FB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A3685BA1C49B52000461FB0 /* Hanabi-Exam */,
+				8A3685CE1C49B52000461FB0 /* Hanabi-ExamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A3685B91C49B52000461FB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3685C91C49B52000461FB0 /* LaunchScreen.storyboard in Resources */,
+				8A3685C61C49B52000461FB0 /* Assets.xcassets in Resources */,
+				8A3685C41C49B52000461FB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3685CD1C49B52000461FB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFCD58A480025D85B520968 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanabi-Exam/Pods-Hanabi-Exam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B19CCEB3D7E6E211B32929 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDF89021DF2CB5C04EEBE9E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanabi-Exam/Pods-Hanabi-Exam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A3685B71C49B52000461FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3685C11C49B52000461FB0 /* ViewController.swift in Sources */,
+				8A3685BF1C49B52000461FB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3685CB1C49B52000461FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3685D41C49B52000461FB0 /* Hanabi_ExamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A3685D11C49B52000461FB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A3685BA1C49B52000461FB0 /* Hanabi-Exam */;
+			targetProxy = 8A3685D01C49B52000461FB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A3685C21C49B52000461FB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3685C31C49B52000461FB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A3685C71C49B52000461FB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3685C81C49B52000461FB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A3685D61C49B52000461FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A3685D71C49B52000461FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3685D91C49B52000461FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66FC0DBBEE0DF33C8541A61 /* Pods-Hanabi-Exam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hanabi-Exam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ndninja.Hanabi-Exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A3685DA1C49B52000461FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6979669489ED91741B0FBF0 /* Pods-Hanabi-Exam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hanabi-Exam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ndninja.Hanabi-Exam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A3685DC1C49B52000461FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hanabi-ExamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ndninja.Hanabi-ExamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanabi-Exam.app/Hanabi-Exam";
+			};
+			name = Debug;
+		};
+		8A3685DD1C49B52000461FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hanabi-ExamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ndninja.Hanabi-ExamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanabi-Exam.app/Hanabi-Exam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A3685B61C49B52000461FB0 /* Build configuration list for PBXProject "Hanabi-Exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3685D61C49B52000461FB0 /* Debug */,
+				8A3685D71C49B52000461FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3685D81C49B52000461FB0 /* Build configuration list for PBXNativeTarget "Hanabi-Exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3685D91C49B52000461FB0 /* Debug */,
+				8A3685DA1C49B52000461FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3685DB1C49B52000461FB0 /* Build configuration list for PBXNativeTarget "Hanabi-ExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3685DC1C49B52000461FB0 /* Debug */,
+				8A3685DD1C49B52000461FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A3685B31C49B52000461FB0 /* Project object */;
+}

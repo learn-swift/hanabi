@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0950DAFE66B7A829933AE6BC5CCA7A69 /* HanabiCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422E6B334D7668D3DA5E9199EE4DC8C /* HanabiCollectionViewLayout-dummy.m */; };
+		474F3F71DE796E83549DCB278A8537D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		5A96229A15843D338C77C6B1ABEFFB46 /* Pods-Hanabi-Exam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34229BCA66002ABD59AB15C2F19DF385 /* Pods-Hanabi-Exam-dummy.m */; };
+		915FBC6F37EE35F16F13BB10C5328977 /* HanabiCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CAB5DEC6EC0EFE3AA3B7502B248241 /* HanabiCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72828AEE04C1E239A124C980BD2771B /* HanabiCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6F4B265E8A884E768DDB58EF312AE /* HanabiCollectionViewLayout.swift */; };
+		C802A68AF12F5CA65A94E336E66862F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		F1FDBDDE8D4F9C6D765BA506A5147E4A /* Pods-Hanabi-Exam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A0FF21A9ED2D98D21251C6E60C8792 /* Pods-Hanabi-Exam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDCA416A9FC9D9466A45310CBF1C9B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CD31CB1D3E1D6FBB4AA73A39F2D9C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97CBD39F56F3833D43324AB55233E62C;
+			remoteInfo = HanabiCollectionViewLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30473071D34958B2D6806FA8622DA362 /* Pods-Hanabi-Exam-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hanabi-Exam-resources.sh"; sourceTree = "<group>"; };
+		34229BCA66002ABD59AB15C2F19DF385 /* Pods-Hanabi-Exam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hanabi-Exam-dummy.m"; sourceTree = "<group>"; };
+		34EB684BEA0030E105C627E8A96092B1 /* Pods-Hanabi-Exam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Hanabi-Exam.modulemap"; sourceTree = "<group>"; };
+		4F27CA06D0D143990CA8C18A1ACD66AF /* Pods-Hanabi-Exam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hanabi-Exam.release.xcconfig"; sourceTree = "<group>"; };
+		51D6F4B265E8A884E768DDB58EF312AE /* HanabiCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HanabiCollectionViewLayout.swift; path = Hanabi/HanabiCollectionViewLayout.swift; sourceTree = "<group>"; };
+		66412ACDAA3E05662337ED3787656759 /* HanabiCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HanabiCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		6D2078938560BA4F3EFD3D6BE5AF6350 /* Pods_Hanabi_Exam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanabi_Exam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9242432A62C2474519B37F6DCD389031 /* HanabiCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanabiCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		9422E6B334D7668D3DA5E9199EE4DC8C /* HanabiCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanabiCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		96A6B22A15F34C1B55E6CE3A8270122B /* Pods-Hanabi-Exam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hanabi-Exam-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98CAB5DEC6EC0EFE3AA3B7502B248241 /* HanabiCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanabiCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		9A3C14BDD9BB386B921AD9C0622D03FE /* Pods-Hanabi-Exam-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hanabi-Exam-frameworks.sh"; sourceTree = "<group>"; };
+		A58B299BF1260D75E067580411205772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87C969E5DC76E37CC41A980B67B017D /* HanabiCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HanabiCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB866EB6321A309BFC44D31652D9E1FF /* Pods-Hanabi-Exam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hanabi-Exam-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA33477B58529041994A5306C1B97475 /* HanabiCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanabiCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C629E013F262E74EE5D63205CF902D1F /* Pods-Hanabi-Exam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hanabi-Exam.debug.xcconfig"; sourceTree = "<group>"; };
+		DED8A9F455B6EFD514DC5DC106AA4F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A0FF21A9ED2D98D21251C6E60C8792 /* Pods-Hanabi-Exam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hanabi-Exam-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF0CD1D65F509A4F41BF51388DBF8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCA416A9FC9D9466A45310CBF1C9B92 /* Foundation.framework in Frameworks */,
+				474F3F71DE796E83549DCB278A8537D5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B924BD28744D31116FC1CF3680CE93F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C802A68AF12F5CA65A94E336E66862F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1F3EF546DCC01B1545699F5A7CD68371 /* Pods-Hanabi-Exam */ = {
+			isa = PBXGroup;
+			children = (
+				A58B299BF1260D75E067580411205772 /* Info.plist */,
+				34EB684BEA0030E105C627E8A96092B1 /* Pods-Hanabi-Exam.modulemap */,
+				96A6B22A15F34C1B55E6CE3A8270122B /* Pods-Hanabi-Exam-acknowledgements.markdown */,
+				AB866EB6321A309BFC44D31652D9E1FF /* Pods-Hanabi-Exam-acknowledgements.plist */,
+				34229BCA66002ABD59AB15C2F19DF385 /* Pods-Hanabi-Exam-dummy.m */,
+				9A3C14BDD9BB386B921AD9C0622D03FE /* Pods-Hanabi-Exam-frameworks.sh */,
+				30473071D34958B2D6806FA8622DA362 /* Pods-Hanabi-Exam-resources.sh */,
+				E0A0FF21A9ED2D98D21251C6E60C8792 /* Pods-Hanabi-Exam-umbrella.h */,
+				C629E013F262E74EE5D63205CF902D1F /* Pods-Hanabi-Exam.debug.xcconfig */,
+				4F27CA06D0D143990CA8C18A1ACD66AF /* Pods-Hanabi-Exam.release.xcconfig */,
+			);
+			name = "Pods-Hanabi-Exam";
+			path = "Target Support Files/Pods-Hanabi-Exam";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50013D161AF668F230998BC1459132F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8498CF92F7F85D4B3768D29963249A4 /* HanabiCollectionViewLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61468AC2767C44077FE11D5BCD361B35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3EF546DCC01B1545699F5A7CD68371 /* Pods-Hanabi-Exam */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				50013D161AF668F230998BC1459132F3 /* Pods */,
+				81482635DFC58E413EC1DB09EB3D2F8D /* Products */,
+				61468AC2767C44077FE11D5BCD361B35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81482635DFC58E413EC1DB09EB3D2F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87C969E5DC76E37CC41A980B67B017D /* HanabiCollectionViewLayout.framework */,
+				6D2078938560BA4F3EFD3D6BE5AF6350 /* Pods_Hanabi_Exam.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8498CF92F7F85D4B3768D29963249A4 /* HanabiCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				51D6F4B265E8A884E768DDB58EF312AE /* HanabiCollectionViewLayout.swift */,
+				AFAB0699AB5ACA4D1188F975EF330A32 /* Support Files */,
+			);
+			path = HanabiCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		AFAB0699AB5ACA4D1188F975EF330A32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66412ACDAA3E05662337ED3787656759 /* HanabiCollectionViewLayout.modulemap */,
+				9242432A62C2474519B37F6DCD389031 /* HanabiCollectionViewLayout.xcconfig */,
+				9422E6B334D7668D3DA5E9199EE4DC8C /* HanabiCollectionViewLayout-dummy.m */,
+				BA33477B58529041994A5306C1B97475 /* HanabiCollectionViewLayout-prefix.pch */,
+				98CAB5DEC6EC0EFE3AA3B7502B248241 /* HanabiCollectionViewLayout-umbrella.h */,
+				DED8A9F455B6EFD514DC5DC106AA4F31 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HanabiCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01B960E4B3DF9041A437FCA1AC6380BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FDBDDE8D4F9C6D765BA506A5147E4A /* Pods-Hanabi-Exam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223C97EF8235BA397F0E6B9748FB6F26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915FBC6F37EE35F16F13BB10C5328977 /* HanabiCollectionViewLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		97CBD39F56F3833D43324AB55233E62C /* HanabiCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB43B855E419C0DA81F34499775B2AA /* Build configuration list for PBXNativeTarget "HanabiCollectionViewLayout" */;
+			buildPhases = (
+				F6452BDE4A7604577CEB1C20821C138C /* Sources */,
+				9FF0CD1D65F509A4F41BF51388DBF8CE /* Frameworks */,
+				223C97EF8235BA397F0E6B9748FB6F26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanabiCollectionViewLayout;
+			productName = HanabiCollectionViewLayout;
+			productReference = A87C969E5DC76E37CC41A980B67B017D /* HanabiCollectionViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE1FF84C2BC6DEEE9E54D7108163880A /* Pods-Hanabi-Exam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9866C6AFF5C5BD78AAD3F3974F84F0FB /* Build configuration list for PBXNativeTarget "Pods-Hanabi-Exam" */;
+			buildPhases = (
+				975C4D680B4C6219F13DF1380780B2F7 /* Sources */,
+				B924BD28744D31116FC1CF3680CE93F1 /* Frameworks */,
+				01B960E4B3DF9041A437FCA1AC6380BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CD1B1784AEC7723B154630A5D688F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hanabi-Exam";
+			productName = "Pods-Hanabi-Exam";
+			productReference = 6D2078938560BA4F3EFD3D6BE5AF6350 /* Pods_Hanabi_Exam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 81482635DFC58E413EC1DB09EB3D2F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97CBD39F56F3833D43324AB55233E62C /* HanabiCollectionViewLayout */,
+				FE1FF84C2BC6DEEE9E54D7108163880A /* Pods-Hanabi-Exam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		975C4D680B4C6219F13DF1380780B2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A96229A15843D338C77C6B1ABEFFB46 /* Pods-Hanabi-Exam-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6452BDE4A7604577CEB1C20821C138C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0950DAFE66B7A829933AE6BC5CCA7A69 /* HanabiCollectionViewLayout-dummy.m in Sources */,
+				A72828AEE04C1E239A124C980BD2771B /* HanabiCollectionViewLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70CD1B1784AEC7723B154630A5D688F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HanabiCollectionViewLayout;
+			target = 97CBD39F56F3833D43324AB55233E62C /* HanabiCollectionViewLayout */;
+			targetProxy = 7CD31CB1D3E1D6FBB4AA73A39F2D9C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		496FD7D2AF8C657405F811810B091C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C629E013F262E74EE5D63205CF902D1F /* Pods-Hanabi-Exam.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hanabi-Exam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hanabi-Exam/Pods-Hanabi-Exam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Hanabi_Exam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		806EB2EBC69B6653DAA8963A3C1BA081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9242432A62C2474519B37F6DCD389031 /* HanabiCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HanabiCollectionViewLayout/HanabiCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanabiCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanabiCollectionViewLayout/HanabiCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HanabiCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		990F4630CD24199E288BA8F223B0C5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9242432A62C2474519B37F6DCD389031 /* HanabiCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HanabiCollectionViewLayout/HanabiCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanabiCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanabiCollectionViewLayout/HanabiCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HanabiCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E77E9AF3CE8DB2FB33016937C9CFB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F27CA06D0D143990CA8C18A1ACD66AF /* Pods-Hanabi-Exam.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hanabi-Exam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hanabi-Exam/Pods-Hanabi-Exam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Hanabi_Exam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB43B855E419C0DA81F34499775B2AA /* Build configuration list for PBXNativeTarget "HanabiCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806EB2EBC69B6653DAA8963A3C1BA081 /* Debug */,
+				990F4630CD24199E288BA8F223B0C5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9866C6AFF5C5BD78AAD3F3974F84F0FB /* Build configuration list for PBXNativeTarget "Pods-Hanabi-Exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496FD7D2AF8C657405F811810B091C37 /* Debug */,
+				9E77E9AF3CE8DB2FB33016937C9CFB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
